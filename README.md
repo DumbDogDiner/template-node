@@ -8,7 +8,13 @@ By default, this template supports being built as a standard TypeScript project,
 
 ### Building with TypeScript
 
-By default, yarn build runs ESLint and then compiles the TypeScript source.
+By default, `yarn build` runs ESLint and then compiles the TypeScript source.
+
+```sh
+yarn build
+```
+
+This runs the TypeScript compiler, which converts your TypeScript files into plain JavaScript able to be read by `node`. If there are any type errors in your project, they will show up at this point.
 
 ```sh
 $ yarn build
