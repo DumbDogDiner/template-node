@@ -1,3 +1,5 @@
+# This CI pipeline builds the project as a Docker image.
+# It uses the Dockerfile found in the project root.
 name: Build with Docker
 
 on: push
@@ -18,6 +20,7 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
+          # change this to push to docker hub
           push: false
           # change me!
           tags: DumbDogDiner/template-node:latest

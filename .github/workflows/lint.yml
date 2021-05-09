@@ -1,3 +1,4 @@
+# This CI pipeline lints the project using ESLint
 name: Lint with ESLint
 
 on: push

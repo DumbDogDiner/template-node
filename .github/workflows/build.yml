@@ -1,3 +1,4 @@
+# This CI pipeline builds the project using the TypeScript compiler
 name: Build TypeScript
 
 on: push

@@ -1,3 +1,4 @@
+# This CI pipeline tests the project using Jest
 name: Test with Jest
 
 on: push
