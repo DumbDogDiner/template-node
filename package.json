@@ -7,9 +7,13 @@
 	"author": "SkyezerFox <actuallyori@gmail.com>",
 	"license": "MIT",
 	"private": true,
+	"engines": {
+		"node": ">=16"
+	},
 	"scripts": {
 		"start": "ts-node src",
 		"build": "eslint src/**/*.* && tsc -b",
+		"prod": "node dist",
 		"lint": "eslint src/**/*.*"
 	},
 	"devDependencies": {
