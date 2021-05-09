@@ -1,13 +1,14 @@
 {
-    "compilerOptions": {
-        "target": "ESNext",
-        "module": "CommonJS",
-        "strict": true,
-        "skipDefaultLibCheck": true,
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
-    },
-    "exclude": ["node_modules"],
-    "include": ["src"]
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"strict": true,
+		"skipDefaultLibCheck": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"outDir": "dist"
+	},
+	"exclude": ["node_modules"],
+	"include": ["src"]
 }

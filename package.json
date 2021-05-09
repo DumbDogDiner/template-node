@@ -9,6 +9,7 @@
 	"private": true,
 	"scripts": {
 		"start": "ts-node src",
+		"build": "eslint src/**/*.* && tsc -b",
 		"lint": "eslint src/**/*.*"
 	},
 	"devDependencies": {
