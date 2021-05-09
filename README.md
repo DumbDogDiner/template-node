@@ -62,7 +62,7 @@ This repository includes boilerplate testing support using the [Jest](htthttps:/
 
 A **unit test** tests a particular piece of code, such as a function or class. This is in contrast to an **integration test**, which tests many components of a library at once.
 
-## Example Test
+### Example Test
 
 An example test is shown below - this test was taken directly from [index.test.ts](./src/index.test.ts). I've listed below what each function does.
 
